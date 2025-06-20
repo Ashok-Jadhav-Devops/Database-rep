@@ -5,5 +5,3 @@ select instance_name,INSTANCE_ROLE,STATUS,DATABASE_STATUS,host_name,to_char(star
 
 select name,open_mode,database_role,flashback_on,log_mode from v$database;
 
-show pdbs
-
